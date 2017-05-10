@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    tools:context="me.goodnesskayode.stand.Signup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding"
+        >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/favicon"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paddingTop"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/padding"
+            android:hint="@string/user_email"
+            android:textColorHighlight="@color/brand_color"
+            />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/user_password"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="@dimen/padding"
+            android:textColorHighlight="@color/brand_color"
+            />
+
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:background="@color/brand_color"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:text="Already have an account?"
+            android:textColor="@color/brand_color"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            />
+
+        <TextView
+            android:id="@+id/sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+</ScrollView>
