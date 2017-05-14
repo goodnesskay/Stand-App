@@ -55,7 +55,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:drawableLeft="@drawable/short"
+            android:drawableLeft="@drawable/mobile"
             android:drawablePadding="@dimen/padding"
             android:hint="Short Description"
             android:inputType="textMultiLine"/>

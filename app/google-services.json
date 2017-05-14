@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "376255021076",
+    "firebase_url": "https://stand-ee671.firebaseio.com",
+    "project_id": "stand-ee671",
+    "storage_bucket": "stand-ee671.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376255021076:android:c453110dfbfdfa23",
+        "android_client_info": {
+          "package_name": "me.goodnesskayode.stand"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376255021076-cjta57psmmch1f17392t6rgh4rfo1vci.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "me.goodnesskayode.stand",
+            "certificate_hash": "5d4de95c3551f36c8d9c497c5ec43a2166ef50b4"
+          }
+        },
+        {
+          "client_id": "376255021076-pgo3m3mt4qr8n4e7fhv66mvval54ehq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZqx4-jyeymm1Rzz2M6tpJCbdNQ6mKgCs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376255021076-pgo3m3mt4qr8n4e7fhv66mvval54ehq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
