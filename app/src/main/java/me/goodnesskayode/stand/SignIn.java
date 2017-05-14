@@ -39,9 +39,6 @@ public class SignIn extends AppCompatActivity {
         }
         setContentView(R.layout.activity_sign_in);
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
         mAuth = FirebaseAuth.getInstance();
 
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
