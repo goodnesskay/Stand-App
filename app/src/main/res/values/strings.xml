@@ -19,4 +19,6 @@
     <string name="register">Sign Me Up</string>
     <string name="signin">Continue</string>
     <string name="username">Username</string>
+    <string name="minimum_password">Password too Short</string>
+    <string name="auth_failed">Authntication Failed</string>
 </resources>
