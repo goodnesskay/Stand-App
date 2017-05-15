@@ -3,7 +3,7 @@ package me.goodnesskayode.stand;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Post extends AppCompatActivity {
+public class PostActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
