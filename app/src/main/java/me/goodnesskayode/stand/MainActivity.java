@@ -37,6 +37,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button mPost = (Button) findViewById(R.id.post_button);
+        mPost.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(),PostActivity.class));
+            }
+        });
+
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
         if (user != null) {
